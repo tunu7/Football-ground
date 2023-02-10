@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Football Ground Booking</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <h1>Football Ground Booking</h1>
+
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone" required>
+
+      <label for="ground">Select a ground:</label>
+      <select id="ground" name="ground" required>
+        <option value="">Select a ground</option>
+        <option value="Ground 1">Ground 1</option>
+        <option value="Ground 2">Ground 2</option>
+        <option value="Ground 3">Ground 3</option>
+      </select>
+
+      <label for="time">Select a time:</label>
+      <input type="time" id="time" name="time" required>
+
+      <input type="submit" value="Book">
+    </form>
+
+    <div id="confirmation"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
